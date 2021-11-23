@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="SourceDBConn-CNET"
+  DTS:DTSID="{2775DAD6-5BBD-4847-983A-45311F96F2D8}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Retain="True"
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=164.52.218.134;User ID=sa;Initial Catalog=CNET;Provider=MSOLEDBSQL.1;Persist Security Info=False;Application Name=SSIS-{2775DAD6-5BBD-4847-983A-45311F96F2D8}SourceDBConn-CNET;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA5V7wwRrgA0m+IKlRAAekAwAAAAACAAAAAAADZgAAwAAAABAAAACE95lA3/A5fWSxAlMeC4ddAAAAAASAAACgAAAAEAAAADGKp97RhMEFN313Iu9l1DJ4AAAAzRoYWfJ9Knki01MMkvzWXfBRvcIwI7rpmyrGz3p9vA2bqtr6VOvyLdgAQFanOJo+FDIDTPzYqo87SuvIOLAjoqd8soYbF6QAIpxMOmPG3nIFLne/R3QICMkFKoNnXOM+jAExipXES/OAWO2ksItFg3qPndZlrYKPFAAAAINEH3LB+U4cW7bsOMV23CUSgizV</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
