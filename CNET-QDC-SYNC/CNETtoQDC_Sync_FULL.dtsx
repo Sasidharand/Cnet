@@ -12,8 +12,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="122"
-  DTS:VersionGUID="{E5DB3854-8850-4300-8D09-C283DD3991E1}">
+  DTS:VersionBuild="123"
+  DTS:VersionGUID="{488AA184-A086-4934-825D-3C4C1114B46E}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables>
@@ -62,7 +62,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="StartTime1">
       <DTS:VariableValue
-        DTS:DataType="7">11/21/2021 9:55:23 AM</DTS:VariableValue>
+        DTS:DataType="7">11/24/2021 11:49:28 PM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -15418,7 +15418,7 @@
 '"+(DT_WSTR,50) @[System::ErrorCode]+"','" + REPLACE(REPLACE(@[System::ErrorDescription],"\"",""),"'","")   +"',GETDATE())"</DTS:PropertyExpression>
           <DTS:ObjectData>
             <SQLTask:SqlTaskData
-              SQLTask:Connection="{301E31FF-EAF7-4AD8-A05B-BFA2F45AE9AF}"
+              SQLTask:Connection="{D1959247-5B20-49BF-9DC1-08641718D32A}"
               SQLTask:BypassPrepare="False"
               SQLTask:SqlStatementSource="INSERT INTO cds_SSIS_ErrorLog VALUES('{58067FC9-88D1-41B3-B065-23A4A8E1A322}','Package1','WINDOWS-2T1RI0S','EST OnError Pac',&#xA;'0','',GETDATE())" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
           </DTS:ObjectData>
@@ -17537,6 +17537,18 @@
       </GraphLayout>
     </LayoutInfo>
   </Package>
+  <DtsEventHandler
+    design-time-name="Package.EventHandlers[OnError]">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="164,42"
+          Id="Package.EventHandlers[OnError]\EST OnError Pac"
+          TopLeft="483,125" />
+      </GraphLayout>
+    </LayoutInfo>
+  </DtsEventHandler>
   <TaskHost
     design-time-name="Package\DFT-cds_Atr">
     <LayoutInfo>
@@ -20622,17 +20634,5 @@
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <DtsEventHandler
-    design-time-name="Package.EventHandlers[OnError]">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
-        <NodeLayout
-          Size="164,42"
-          Id="Package.EventHandlers[OnError]\EST OnError Pac"
-          TopLeft="483,125" />
-      </GraphLayout>
-    </LayoutInfo>
-  </DtsEventHandler>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
