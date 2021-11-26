@@ -12,8 +12,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="CNETtoQDC_Sync_Incre_Update"
   DTS:PackageType="5"
-  DTS:VersionBuild="384"
-  DTS:VersionGUID="{79E99B38-8006-48CB-8C5B-9B7983AAC188}">
+  DTS:VersionBuild="387"
+  DTS:VersionGUID="{40634525-280A-49AC-A35C-B71A9C512009}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:LogProviders>
@@ -17162,7 +17162,7 @@ prd.ProdID = ?</property>
     design-time-name="Package\Product Insert to Staging Item by Item\cds_Catalog">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="157,42"
           Id="Package\Product Insert to Staging Item by Item\cds_Catalog\OLE DB Source"
@@ -17202,9 +17202,7 @@ prd.ProdID = ?</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
