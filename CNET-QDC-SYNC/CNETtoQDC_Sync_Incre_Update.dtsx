@@ -12,8 +12,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="CNETtoQDC_Sync_Incre_Update"
   DTS:PackageType="5"
-  DTS:VersionBuild="411"
-  DTS:VersionGUID="{2BD378E7-BDF9-4967-A08B-F5FBDF977C8C}">
+  DTS:VersionBuild="412"
+  DTS:VersionGUID="{AB0F6A13-D63F-40DE-87FF-60262B67EE6B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:LogProviders>
