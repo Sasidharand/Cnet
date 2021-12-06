@@ -8,10 +8,10 @@
       DTS:Retain="True"
       DTS:ConnectRetryCount="1"
       DTS:ConnectRetryInterval="5"
-      DTS:ConnectionString="Data Source=164.52.218.134;User ID=sa;Initial Catalog=QDCNEW;Provider=MSOLEDBSQL.1;Persist Security Info=False;Application Name=SSIS-{D1959247-5B20-49BF-9DC1-08641718D32A}DestinationDBConn-QDC;">
+      DTS:ConnectionString="Data Source=qoipr.database.windows.net;User ID=qoipradmin;Initial Catalog=QDC;Provider=MSOLEDBSQL.1;Persist Security Info=False;Application Name=SSIS-{D1959247-5B20-49BF-9DC1-08641718D32A}DestinationDBConn-QDC;">
       <DTS:Password
         DTS:Name="Password"
-        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPZ3s+J2MAUCMwXvA6GX7UQAAAAACAAAAAAADZgAAwAAAABAAAADehRPDKHLGph16EtO2QoXFAAAAAASAAACgAAAAEAAAAD6n1zEMQCOFTXSCF4Qyt3l4AAAAKCCdqN706LKmpWHhzfFJQlLAaqLFD3U/Lrs/xx4xYxMQauNH7MSGhGIZLfRODZu1UaQBAKdfQ1/gC3JFTrhw0WXDvAP6r2rWW4eDUF4aSJ1lrIKsvuuB9DbSx6wJ+2TxYfhDHWr/0Iqs/fkjiXSZ2+/CZXvaQWVZFAAAAOiEzgF9IlTUXLebVnumqRIWr/+l</DTS:Password>
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAPZ3s+J2MAUCMwXvA6GX7UQAAAAACAAAAAAADZgAAwAAAABAAAADeEsSIHAWiAWhfAUwuyX3OAAAAAASAAACgAAAAEAAAAPFjsnBB/SFVbhNoqiOZrp94AAAAK6zNkN5IjQ9S6u0JHDIscfjKl/DM3ATyMYBD5P9fLJhOlx3pS6589Fi+uX8groe4absEQQq51r71dv4BMkd4TmXaHv44woDw3HYsJwPLKYjdb9P/KOCmAG3ku4EAgn5FYVG8ALBDzwQ3r9cfHc23vxiDBd7sb03VFAAAAHFEaecC2vRY9Qz/ofRg+Sd+vPnV</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>
